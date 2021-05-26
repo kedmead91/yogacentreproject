@@ -1,0 +1,190 @@
+/*font stylesheet import*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("../Images/forest.jpg");
+    opacity: 95%;
+}
+/*navbar styling*/
+nav {
+    background: #03b65c;
+    height: 80px;
+    width: 100%;
+}
+
+/*logo for nav bar*/
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 90px;
+    padding: 7px 40px;
+    margin-left:20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: solid 3px white;
+}
+
+/*navbar styling*/
+nav ul {
+    float: right;
+    margin-right: 20px;
+   
+}
+
+/*navbar styling*/
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+/*navbar styling*/
+
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+/*social media icon styling in navbar*/
+
+i{
+      
+    font-size:32px;
+    color: white;
+    padding-top: 35px;
+}
+a.active, a:hover{
+    background: #6fc490;
+    transition: .5s;
+
+    /*styling for about yoga classes section*/
+}
+.title{
+    margin: 45px;
+    text-align: center;
+    font-size: 45px;
+    background-color: rgb(243, 234, 234);
+    opacity: 65%;
+}
+.container{
+    
+    display: inline-block;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-color:rgb(49, 43, 31);
+    padding-right: 25px;
+    padding-left: 25px;
+}
+img{
+    float: left;
+    width:50%;
+    margin:7px;
+    height: 470px;
+    padding-bottom: 25px;
+    opacity: 70%;
+}
+
+.ashtanga-description, .yin-description, .hatha-description {
+    background-color: rgb(124, 160, 95);
+    color: white;
+    width:45%;
+    margin: 15px;
+    float: right;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+
+
+.highlight h1, h3{
+    background-color: rgb(40, 63, 31);
+}
+
+/*timetable section*/
+
+table {
+    height: 40%;
+    left: 10%;
+    margin: 20px auto;
+    overflow-y: scroll;
+    position: static;
+    width: 80%;
+    background-color:rgb(49, 43, 31);
+    padding: 40px;
+  }
+  
+  th {
+    background: rgb(40, 63, 31);
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  tr {
+    background: rgb(124, 160, 95);
+    border-bottom: 1px solid #FFF;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 15px;
+   
+  }
+  
+  th, td {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: 20px;
+    text-align: center;
+    width: 28.3333%;
+  }
+
+  th:hover {
+  color: white;
+  font-weight: bold;
+  background-color:rgb(78, 104, 57);
+  font-size: 13px;
+
+  }
+
+  header{
+    background: white;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/*footer styling*/
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
+
+  
+  
+ 
